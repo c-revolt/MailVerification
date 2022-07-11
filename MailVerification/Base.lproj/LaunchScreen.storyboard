@@ -20,6 +20,12 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="valhalla_launch_screen" translatesAutoresizingMaskIntoConstraints="NO" id="E5Q-yg-vXP">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Gods are waiting for you..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hhG-bb-fhW">
+                                <rect key="frame" x="40" y="754.5" width="334" height="62.5"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="25"/>
+                                <color key="textColor" red="0.31372549019607843" green="0.71764705882352942" blue="0.62745098039215685" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -27,7 +33,10 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="E5Q-yg-vXP" secondAttribute="bottom" constant="-34" id="8jR-dW-yt7"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="E5Q-yg-vXP" secondAttribute="trailing" id="8jh-si-SaX"/>
                             <constraint firstItem="E5Q-yg-vXP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-44" id="Wec-DK-MfC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hhG-bb-fhW" secondAttribute="bottom" constant="45" id="c3f-Xc-Vv9"/>
                             <constraint firstItem="E5Q-yg-vXP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hkh-XG-4xV"/>
+                            <constraint firstItem="hhG-bb-fhW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="yYm-Je-AXU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hhG-bb-fhW" secondAttribute="trailing" constant="40" id="z2Y-jo-jA5"/>
                         </constraints>
                     </view>
                 </viewController>

@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "vh_button_background.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -9,7 +10,6 @@
       "scale" : "2x"
     },
     {
-      "filename" : "valhalla_background.jpeg",
       "idiom" : "universal",
       "scale" : "3x"
     }

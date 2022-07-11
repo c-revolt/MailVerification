@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0AF2EFF287C16AC008D63D8 /* StatusLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AF2EFE287C16AC008D63D8 /* StatusLabel.swift */; };
+		D0AF2F01287C1B26008D63D8 /* StackView Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AF2F00287C1B26008D63D8 /* StackView Extention.swift */; };
+		D0AF2F03287C1CA5008D63D8 /* MailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AF2F02287C1CA5008D63D8 /* MailTextField.swift */; };
+		D0AF2F05287C2E55008D63D8 /* VefiricationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AF2F04287C2E55008D63D8 /* VefiricationButton.swift */; };
+		D0AF2F07287C3B90008D63D8 /* MailsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AF2F06287C3B90008D63D8 /* MailsCollectionView.swift */; };
+		D0AF2F0A287C3D62008D63D8 /* MailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AF2F09287C3D62008D63D8 /* MailCollectionViewCell.swift */; };
 		D0E66AB32863312F005DB6BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E66AB22863312F005DB6BD /* AppDelegate.swift */; };
 		D0E66AB52863312F005DB6BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E66AB42863312F005DB6BD /* SceneDelegate.swift */; };
-		D0E66AB72863312F005DB6BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E66AB62863312F005DB6BD /* ViewController.swift */; };
+		D0E66AB72863312F005DB6BD /* ValhallaVerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E66AB62863312F005DB6BD /* ValhallaVerificationViewController.swift */; };
 		D0E66ABC28633134005DB6BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E66ABB28633134005DB6BD /* Assets.xcassets */; };
 		D0E66ABF28633134005DB6BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E66ABD28633134005DB6BD /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D0AF2EFE287C16AC008D63D8 /* StatusLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusLabel.swift; sourceTree = "<group>"; };
+		D0AF2F00287C1B26008D63D8 /* StackView Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StackView Extention.swift"; sourceTree = "<group>"; };
+		D0AF2F02287C1CA5008D63D8 /* MailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailTextField.swift; sourceTree = "<group>"; };
+		D0AF2F04287C2E55008D63D8 /* VefiricationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VefiricationButton.swift; sourceTree = "<group>"; };
+		D0AF2F06287C3B90008D63D8 /* MailsCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailsCollectionView.swift; sourceTree = "<group>"; };
+		D0AF2F09287C3D62008D63D8 /* MailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailCollectionViewCell.swift; sourceTree = "<group>"; };
 		D0E66AAF2863312F005DB6BD /* MailVerification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MailVerification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0E66AB22863312F005DB6BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0E66AB42863312F005DB6BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D0E66AB62863312F005DB6BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0E66AB62863312F005DB6BD /* ValhallaVerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValhallaVerificationViewController.swift; sourceTree = "<group>"; };
 		D0E66ABB28633134005DB6BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0E66ABE28633134005DB6BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0E66AC028633134005DB6BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -35,6 +47,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0AF2EF9287C10DE008D63D8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D0E66AB62863312F005DB6BD /* ValhallaVerificationViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D0AF2EFA287C10EC008D63D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D0AF2F08287C3D50008D63D8 /* Cells */,
+				D0AF2EFE287C16AC008D63D8 /* StatusLabel.swift */,
+				D0AF2F02287C1CA5008D63D8 /* MailTextField.swift */,
+				D0AF2F04287C2E55008D63D8 /* VefiricationButton.swift */,
+				D0AF2F06287C3B90008D63D8 /* MailsCollectionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D0AF2EFB287C10F9008D63D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D0AF2EFC287C1102008D63D8 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				D0AF2EFD287C110C008D63D8 /* UIKit */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		D0AF2EFD287C110C008D63D8 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				D0AF2F00287C1B26008D63D8 /* StackView Extention.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		D0AF2F08287C3D50008D63D8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D0AF2F09287C3D62008D63D8 /* MailCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		D0E66AA62863312F005DB6BD = {
 			isa = PBXGroup;
 			children = (
@@ -56,7 +119,10 @@
 			children = (
 				D0E66AB22863312F005DB6BD /* AppDelegate.swift */,
 				D0E66AB42863312F005DB6BD /* SceneDelegate.swift */,
-				D0E66AB62863312F005DB6BD /* ViewController.swift */,
+				D0AF2EFB287C10F9008D63D8 /* Model */,
+				D0AF2EFA287C10EC008D63D8 /* View */,
+				D0AF2EF9287C10DE008D63D8 /* Controllers */,
+				D0AF2EFC287C1102008D63D8 /* Extentions */,
 				D0E66ABB28633134005DB6BD /* Assets.xcassets */,
 				D0E66ABD28633134005DB6BD /* LaunchScreen.storyboard */,
 				D0E66AC028633134005DB6BD /* Info.plist */,
@@ -134,7 +200,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0E66AB72863312F005DB6BD /* ViewController.swift in Sources */,
+				D0AF2F05287C2E55008D63D8 /* VefiricationButton.swift in Sources */,
+				D0AF2F0A287C3D62008D63D8 /* MailCollectionViewCell.swift in Sources */,
+				D0AF2F07287C3B90008D63D8 /* MailsCollectionView.swift in Sources */,
+				D0AF2EFF287C16AC008D63D8 /* StatusLabel.swift in Sources */,
+				D0AF2F01287C1B26008D63D8 /* StackView Extention.swift in Sources */,
+				D0AF2F03287C1CA5008D63D8 /* MailTextField.swift in Sources */,
+				D0E66AB72863312F005DB6BD /* ValhallaVerificationViewController.swift in Sources */,
 				D0E66AB32863312F005DB6BD /* AppDelegate.swift in Sources */,
 				D0E66AB52863312F005DB6BD /* SceneDelegate.swift in Sources */,
 			);
